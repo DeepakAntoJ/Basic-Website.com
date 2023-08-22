@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-image: url("lamborghini-revuelto_100885578.jpg");
+    background-size: cover;
+    color: white;
+min-height: 87vh;
+    display: flex; 
+    flex-direction: column;
+     background-position: center center;
+}
+
+ .container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1000px;
+} 
+
+nav .logo{
+    font-size: 2rem;
+}
+
+.navv{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+li a{
+    color: white;
+    padding: 1rem;
+}
+
+.highlight{
+    background-color: rgb(73, 215, 215);
+}
+
+.highlight2{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(73, 215, 215);
+}
+
+.content{
+    margin: auto 0;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
